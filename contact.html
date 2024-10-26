@@ -95,7 +95,7 @@
 				</div>
 				<ul class="menu_bar_home2">
 					<li class="list-inline-item">
-	                	<div class="search_overlay">
+	                	<!--<div class="search_overlay">
 						  <a id="search-button-listener2" class="mk-search-trigger mk-fullscreen-trigger" href="#">
 						    <div id="search-button2"><i class="flaticon-magnifying-glass"></i></div>
 						  </a>
@@ -108,7 +108,7 @@
 							      </form>
 							    </div>
 							</div>
-						</div>
+						</div>-->
 					</li>
 					<li class="list-inline-item"><a href="#menu"><span></span></a></li>
 				</ul>
@@ -132,7 +132,7 @@
 	                	
 		            </li>
 		            <li>
-		                <a href="#"><span class="title">About us</span></a>
+		                <a href="about.html"><span class="title">About us</span></a>
 		               
 		            </li>
 		            				            
@@ -175,7 +175,7 @@
 				<div class="col-sm-6 col-lg-4">
 					<div class="contact_localtion text-center">
 						<div class="icon"><span class="flaticon-phone-call"></span></div>
-						<h4>Our Location</h4>
+						<h4>Our Contact</h4>
 						<p class="mb0">Mobile: (+233) 532328138 
 					</div>
 				</div>
@@ -193,10 +193,12 @@
 						<img class="img-fluid" src="images/about/8.jpg" alt="8.jpg">
 					</div>
 				</div>
+
+
 				<div class="col-lg-6 form_grid">
 					<h4 class="mb5">Send a Message</h4>
 					<p>Please let us hear your feedback.</p>
-		            <form class="contact_form" id="contact_form" name="contact_form" action="#" method="post" novalidate="novalidate">
+		            <form class="contact_form" id="contact_form" name="contact_form"  onsubmit="sendToWhatsApp(); return false;">
 						<div class="row">
 			                <div class="col-sm-12">
 			                    <div class="form-group">
@@ -222,12 +224,15 @@
 	                                <textarea id="form_message" name="form_message" class="form-control required" rows="5" required="required"></textarea>
 	                            </div>
 			                    <div class="form-group ui_kit_button mb0">
-				                    <button type="button" class="btn dbxshad btn-lg btn-thm circle white">Send</button>
+				                    <button type="submit" class="btn dbxshad btn-lg btn-thm circle white">Send</button>
 			                    </div>
 			                </div>
 		                </div>
 		            </form>
+					
 				</div>
+
+				
 			</div>
 		</div>
 	</section>
