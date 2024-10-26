@@ -1,0 +1,46 @@
+.align-center {
+    
+    display: flex;
+    justify-content: center;
+    top: 8px;
+}
+
+.copyright {
+    width: 33.33%;
+    height:100%;
+    position: relative;
+    margin-top: 2.6%;
+    left: 20%;
+    display: flex;
+    justify-content: center;
+    color: rgb(112, 112, 112) ;
+}
+.color-black {
+    background-color: rgb(18, 18, 18);
+}
+
+.mg-btm-0 {
+    margin-bottom: 0px;
+}
+
+.mg-btm-10 {
+    margin-bottom: 10px;
+}
+
+.short-note {
+    margin-top: 6px;
+    font-size: 10px;
+}
+
+.row_ {
+    display: flex;
+    align-items: center ;
+    justify-content: space-around; /* Space items evenly */
+    flex-wrap: wrap; /* Move items to the next line if necessary */
+}
+@media (max-width: 767px) {
+    .copyright{
+        display: none;
+    }
+}
+
