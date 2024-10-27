@@ -10112,6 +10112,11 @@ ul.mc_parent_list ul.mc_child_list:hover .pricing_btn{
 .img-whp {
   width: 100% !important;
 }
+@media (max-width: 500px){
+  .smaller {
+    width: 70% !important;
+  }
+}
 .text-thm {
   color: #2441e7 !important;
 }
